@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title> HBMpage.html </title>
+        
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="HBMpage.js"></script>
+
+<link rel="stylesheet" type="text/css" href="HBMpage.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="#">Happy Birthday Mumma</a>
+            <div class="topnav-right">
+             <a href="#viewabout">About</a>
+             <a href="#addfamily">Family</a>
+             <a href="#visit"> Contact </a>
+            </div>
+        </div>
+ <center>
+     <h1 id="gg"> WELCOME !! </h1>
+     <br>
+     <img src="collage.jpg" id="img1">
+     <br>
+     <br>
+     <div>
+     <button id="button1" onclick= 'playSound()'>
+         Happy Birthday Mumma
+     </button>
+     <br> 
+     <label id="none"><h5>Click Me</h5></label>
+     </div>
+  
+  <audio id="myAudio" src="bdayaudio.mp3"></audio>
+  <script src="main.js"></script>
+  <br> <br> <br>
+  <hr id="hr1">
+  <body class="abcdef">
+      <div class="page-header" id="viewabout">
+  <h1 id="h13"> ABOUT </h1>
+  <br>
+  <img src="mom.jpg" width="290" height="340">
+  <br> 
+  <p id="p1"> <h3 id="h4">SALONI AGARWAL, Mother of two children and a homemaker.
+      She also has an amazing self-employed buisniess of textile and landloom sheets. 
+      She is Born on 26th December 1982 in Pukhryan, KANPUR.
+       She completed her education from RSGU degree college and got her degree in Post Graduation(PG).
+       She currently lives in Prayagraj, UTTAR PRADESH
+       But most of all she is an amazing and sacrifising mother.   
+       Dear Mumma, WE all love you very much and will always do. Once again a very
+       HAPPY BIRTHDAY!!
+    </h3> </p>
+    <br>
+</div>
+    </div>
+    <br> <br>
+    <div class="page-header" id="addfamily">
+    <H1 id="h13"> FAMILY </H1>
+    </div>
+ 
+  <center style="margin-top: 40px;">
+    <img id="family" src="https://i.postimg.cc/MKdhy06Z/family.jpg"  width="310px" height="380px">
+    <br>
+ <br>
+<button type="button" onclick="family()">NEXT</button>
+<h3 id="one">1. Our Family Book </h3>
+    <script>
+        var names=[
+        "2. Father-In-Law (R.S. Agarwal)",
+        "3. Mother-In-Law (Kiran Agarwal)",
+        "4. Husband (Saurabh Agarwal)",
+        "5. Me (Saloni Agarwal)",
+        "6. Younger Daughter ( Ishanvi Agarwal)",
+        "7. Elder Daughter ( Sanjoli Agarwal)"
+        ];
+        var images=[
+        "baba.jpg",
+            "dadi.jpg",
+            "papa.jpg",
+            "mummy.jpg",
+            "ishanvi.jpg",
+            "sanjoli.jpg"
+        ];
+        var i=0;
+        function family(){
+            document.getElementById("one").innerHTML=names[i];
+            document.getElementById("family").src=images[i];
+            i++;
+            if(i==6){
+                i=0;
+            }
+        }  
+    </script>
+    <hr>
+    <br>
+    <div class="page-header" id="visit">
+        <section id="contact">
+            <h2 id="h13">  Contact Us   </h2>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+        <hr style="width: 100%">
+        <img src="sanjoli.jpg" id="sanjoli" class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-4 ">
+        <h3 id="h13">
+            Sanjoli Agarwal - website desighner
+        </h3>
+        <div class="contact_1">
+        <a href="saloni1468@gmail.com?subject=hi">
+              <h5> <i class="fa fa-envelope"></i> &nbsp; &nbsp; saloni1468@gmail.com</h5>
+                  </a>
+                   <a href="#">
+              <h5> <i class="fa fa-instagram"></i> &nbsp; &nbsp; saloniagarwal2007 </h5>
+                  </a>
+                   <a href="smccjald@gmail.com?subject=hi">
+              <h5> <i class="fa fa-phone-square"></i> &nbsp; &nbsp; 9839991468 </h5>
+                  </a>
+        </div>
+    </section> 
+    </div>
+</body>
+  </center>
+  </body>
+</center>
+</html>

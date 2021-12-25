@@ -1,0 +1,86 @@
+body{
+  background-image: url("https://images.pexels.com/photos/696271/pexels-photo-696271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+		font-family: 'Brush Script MT', cursive;
+   background-size: cover;
+}
+#gg{
+  font-size: 50px;
+  color: white;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #bbb;
+    color: black;
+    }
+  
+    .topnav-right {
+    float: right;
+    }
+  #button1{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+  #img1{
+    width: 445px;
+    height: 400px;
+  }
+  #none{
+    color: white;
+  }
+  #hr1{
+    color: white;
+  }
+  #hr2{
+    color: white;
+  }
+  #h13{
+    color: white;
+  }
+  .body2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #p1{
+    color: white;
+  }
+  #h4{
+  color: white;  
+  }
+  #one{
+    color: white;
+  }
+  #contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#sanjoli{
+  width: 150px;
+  height: 190px;
+  padding-bottom: 60px;
+}
